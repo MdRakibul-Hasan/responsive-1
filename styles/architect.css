@@ -203,6 +203,19 @@ main {
     width: 165px;
 }
 
+/* footer section copyright */
+.footer-section{
+    background-color: #FFF4E7;
+    padding: 50px 100px 50px 100px;
+}
+.footer{
+    padding: 50px 100px 50px 100px;
+}
+.footer-section > p {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
@@ -241,7 +254,16 @@ main {
     .facts-card-container {
         gap: 20px;
     }
+
+    .footer{
+        padding: 2px 5px 2px 5px;
+    }
+
+    .footer-section{
+        padding: 10px 15px 10px 15px;
+    }
 }
+
 
 /* tablet or medium devices */
 @media screen and (min-width:576px) and (max-width: 960px) {
